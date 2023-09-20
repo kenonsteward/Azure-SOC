@@ -65,12 +65,12 @@ Stop Time 2023-08-05 T20:45:56.7244814Z
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
 Start Time 2023-08-12 T23:52:53.8107815Z
-Stop Time	2023-03-19 15:37
+Stop Time	2023-08-13 T23:52:53.8107815Z
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 8778
-| Syslog                   | 25
+| SecurityEvent            | 8349
+| Syslog                   | 1
 | SecurityAlert            | 0
 | SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
