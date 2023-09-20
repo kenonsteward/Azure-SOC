@@ -32,10 +32,14 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](![image](https://github.com/kyiez/Azure-SOC/assets/90296943/e8f955ad-e03e-44c2-80f4-43b7bd46fbed)<br>
-![Linux Syslog Auth Failures](![image](https://github.com/kyiez/Azure-SOC/assets/90296943/0d91ad52-4cfe-4172-80d8-38fff54db621)<br>
-![Windows RDP/SMB Auth Failures](![image](https://github.com/kyiez/Azure-SOC/assets/90296943/9d35bb2d-0132-45b9-a025-d669bf45abd0)<br>
-![Microsoft SQL Auth Failures](![image](https://github.com/kyiez/Azure-SOC/assets/90296943/c1be1b13-5822-42db-a33d-a798a7ed54e1)<br>
+#### NSG Allowed Inbound Malicious Flows
+![NSG Allowed Inbound Malicious Flows](https://github.com/kyiez/Azure-SOC/assets/90296943/e8f955ad-e03e-44c2-80f4-43b7bd46fbed)<br>
+#### Linux Syslog Auth Failures
+![Linux Syslog Auth Failures](https://github.com/kyiez/Azure-SOC/assets/90296943/0d91ad52-4cfe-4172-80d8-38fff54db621)<br>
+#### Windows RDP/SMB Auth Failures
+![Windows RDP/SMB Auth Failures](https://github.com/kyiez/Azure-SOC/assets/90296943/9d35bb2d-0132-45b9-a025-d669bf45abd0)<br>
+#### Microsoft SQL Auth Failures
+![Microsoft SQL Auth Failures](https://github.com/kyiez/Azure-SOC/assets/90296943/c1be1b13-5822-42db-a33d-a798a7ed54e1)<br>
 
 
 ## Metrics Before Hardening / Security Controls
