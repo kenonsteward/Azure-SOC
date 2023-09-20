@@ -48,13 +48,13 @@ The following table shows the metrics we measured in our insecure environment fo
 Start Time 2023-08-04 20:45
 Stop Time 2023-08-05 20:45
 
-| Metric                   | Count
-| ------------------------ | -----
-| SecurityEvent            | 47595
-| Syslog                   | 3147
-| SecurityAlert            | 6
-| SecurityIncident         | 348
-| AzureNetworkAnalytics_CL | 366
+| Metric                                                         | Count
+| ------------------------                                       | -----
+| SecurityEvent (Windows VMs)                                    | 47595
+| Syslog (Linux VMs)                                             | 3147
+| SecurityAlert (Windows Defender for Cloud                      | 6
+| SecurityIncident (Sentinel Incidents)                          | 348
+| AzureNetworkAnalytics_CL (NSG Inbound Malicious Flows Allowed) | 366
 
 
 ## Attack Maps Before Hardening / Security Controls
@@ -67,13 +67,14 @@ The following table shows the metrics we measured in our environment for another
 Start Time 2023-08-12 23:52
 Stop Time	2023-08-13 23:52
 
-| Metric                   | Count
-| ------------------------ | -----
-| SecurityEvent            | 8349
-| Syslog                   | 1
-| SecurityAlert            | 0
-| SecurityIncident         | 0
-| AzureNetworkAnalytics_CL | 0
+| Metric                                                         | Count  | Change after securing environment  
+| ------------------------                                       | -----  | ---- 
+| SecurityEvent (Windows VMs)                                    | 8349   | -82.46%
+| Syslog (Linux VMs)                                             | 1      | -99.97%
+| SecurityAlert (Windows Defender for Cloud                      | 0      | -100.00%
+| SecurityIncident (Sentinel Incidents)                          | 0      | -100.00%
+| AzureNetworkAnalytics_CL (NSG Inbound Malicious Flows Allowed) | 0      | -100.00%
+
 
 |                          | Change after securing environment
 | ------------------------ | -----
@@ -81,7 +82,7 @@ Stop Time	2023-08-13 23:52
 | Syslog (Linux VMs)                   | -99.97%
 | SecurityAlert (Microsoft Defender for Cloud)            | -100.00%
 | Security Incident (Sentinel Incidents)         | -100.00%
-| NSG Inbound Malicious Flows Allowed | -1000.00%
+| NSG Inbound Malicious Flows Allowed | -100.00%
 
 ## Conclusion
 
