@@ -38,7 +38,7 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 ![Linux Syslog Auth Failures](https://github.com/kyiez/Azure-SOC/assets/90296943/0d91ad52-4cfe-4172-80d8-38fff54db621)<br>
 #### Windows RDP/SMB Auth Failures
 ![Windows RDP/SMB Auth Failures](https://github.com/kyiez/Azure-SOC/assets/90296943/9d35bb2d-0132-45b9-a025-d669bf45abd0)<br>
-#### Microsoft SQL Auth Failures
+#### Microsoft SQL Server Auth Failures
 ![Microsoft SQL Auth Failures](https://github.com/kyiez/Azure-SOC/assets/90296943/c1be1b13-5822-42db-a33d-a798a7ed54e1)<br>
 
 
