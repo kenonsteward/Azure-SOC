@@ -57,7 +57,7 @@ Stop Time 2023-08-05 20:45
 | AzureNetworkAnalytics_CL (NSG Inbound Malicious Flows Allowed) | 366
 
 
-## Attack Maps Before Hardening / Security Controls
+## Attack Maps After Hardening / Security Controls
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
 
