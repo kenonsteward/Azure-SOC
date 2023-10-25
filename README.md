@@ -2,7 +2,8 @@
 <!--
 ![Cloud Honeynet / SOC](https://i.imgur.com/ZWxe03e.jpg)
 -->
-![Cloud Honeynet / SOC](https://github.com/kyiez/Azure-SOC/assets/90296943/a4127ea0-8e66-41af-9195-a51817b1639b)
+![Cloud Honeynet / SOC Diagram](https://github.com/kenonsteward/Azure-SOC/assets/90296943/4579a2e9-627b-4107-a4cd-cd434f363f3e)
+
 
 
 ## Introduction
@@ -19,7 +20,9 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 <!--
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
 -->
-![Architecture Diagram](https://github.com/kyiez/Azure-SOC/assets/90296943/6dbc6d15-1956-4eed-9934-b0df88ece504)
+![Architechture Before Hardening](https://github.com/kenonsteward/Azure-SOC/assets/90296943/79dabb5f-f278-43ce-971a-09bffeb1d701)
+
+
 
 
 
@@ -28,7 +31,9 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 <!--
 ![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
 -->
-![Architecture Diagram](https://github.com/kyiez/Azure-SOC/assets/90296943/596a63e2-20ad-44c5-bb05-f70d4db4c425)
+![Architechture After Hardening _ Security Controls](https://github.com/kenonsteward/Azure-SOC/assets/90296943/6a7f5aa0-2d0e-40dd-aa5d-1ab3209d732a)
+
+
 
 
 The architecture of the mini honeynet in Azure consists of the following components:
@@ -47,13 +52,17 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 
 ## Attack Maps Before Hardening / Security Controls
 #### NSG Allowed Inbound Malicious Flows
-![NSG Allowed Inbound Malicious Flows](https://github.com/kyiez/Azure-SOC/assets/90296943/e8f955ad-e03e-44c2-80f4-43b7bd46fbed)<br>
+![NSG Allowed Inbound Malicious Flows](https://github.com/kenonsteward/Azure-SOC/assets/90296943/78074ddf-fcc6-412c-90c9-1de1f01a23fc)<br>
+
 #### Linux Syslog Auth Failures
-![Linux Syslog Auth Failures](https://github.com/kyiez/Azure-SOC/assets/90296943/0d91ad52-4cfe-4172-80d8-38fff54db621)<br>
+![Linux Syslog Auth Failures](https://github.com/kenonsteward/Azure-SOC/assets/90296943/1f10a9b4-f898-4cb7-afb6-a75ae70accce)<br>
+
 #### Windows RDP/SMB Auth Failures
-![Windows RDP/SMB Auth Failures](https://github.com/kyiez/Azure-SOC/assets/90296943/9d35bb2d-0132-45b9-a025-d669bf45abd0)<br>
+![Windows RDP/SMB Auth Failures](https://github.com/kenonsteward/Azure-SOC/assets/90296943/a18f5261-b057-497b-ab90-8b5c23e0855f)<br>
+
 #### Microsoft SQL Server Auth Failures
-![Microsoft SQL Auth Failures](https://github.com/kyiez/Azure-SOC/assets/90296943/c1be1b13-5822-42db-a33d-a798a7ed54e1)<br>
+![Microsoft SQL Auth Failures](https://github.com/kenonsteward/Azure-SOC/assets/90296943/57261866-9461-463c-989c-b80e1b4072db)<br>
+
 
 
 ## Metrics Before Hardening / Security Controls
