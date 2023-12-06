@@ -84,6 +84,7 @@ Stop Time 2023-08-05 20:45
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
 
+
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics I measured in my environment for another 24 hours, but after having applied security controls:
@@ -98,7 +99,7 @@ Stop Time	2023-08-13 23:52
 | SecurityIncident (Sentinel Incidents)                          | 0      | -100.00%
 | AzureNetworkAnalytics_CL (NSG Inbound Malicious Flows Allowed) | 0      | -100.00%
 
-
+<!--
 |                          | Change after securing environment
 | ------------------------ | -----
 | Security Events (Windows VMs)            | -82.46%
@@ -106,6 +107,7 @@ Stop Time	2023-08-13 23:52
 | SecurityAlert (Microsoft Defender for Cloud)            | -100.00%
 | Security Incident (Sentinel Incidents)         | -100.00%
 | NSG Inbound Malicious Flows Allowed | -100.00%
+-->
 
 ## Conclusion
 
